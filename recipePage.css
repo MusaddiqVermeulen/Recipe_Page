@@ -1,0 +1,81 @@
+.main.header {
+    text-align: center;
+    color: silver;
+}
+
+p {
+    text-align: center;
+    color: silver;
+}
+
+
+.link {
+    text-align: center;
+    display: block;
+    color: rgb(21, 130, 226);
+    font-size: 20px;
+    background-color: rgb(215, 225, 228);
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+/* Basic styling */
+img {
+  display: block; /* Removes any extra spacing below the image */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto; /* Maintains the image's aspect ratio */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+/* Adding a border */
+img {
+  border: 2px solid #333; /* Adds a 2px solid border with a dark gray color */
+}
+
+/* Adding rounded corners */
+img {
+  border-radius: 8px; /* Applies a subtle rounding effect to the corners */
+}
+
+/* Adding a shadow */
+img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow beneath the image */
+}
+
+/* Adding hover effects */
+img {
+  transition: transform 0.3s ease; /* Smooth transition effect on hover */
+}
+
+img:hover {
+  transform: scale(1.1); /* Enlarges the image slightly on hover */
+}
+
+a {
+    font: italic;
+    background-color:#fff;
+}
+
+button {
+    display: block;
+    margin:10px;
+    padding: 10px 20px;
+    background-color:#fff;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Adjust this value to control the roundness of the corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+* {
+    background-color:darkslategrey;
+}
+  
